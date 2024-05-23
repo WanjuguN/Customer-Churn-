@@ -53,7 +53,7 @@ AUC-ROC Score: 57.00%
 Summary: Logistic Regression has high accuracy but low precision and recall, indicating poor
 performance in identifying churned customers. The AUC-ROC score is low, reflecting limited overall
 performance.
-## Decision Tree:
+# Decision Tree:
 Accuracy: 92.20%
 Precision: 74.75%
 Recall: 73.27%
@@ -62,7 +62,7 @@ AUC-ROC Score: 84.43%
 Summary: Decision Tree demonstrates high accuracy and balanced precision and recall, indicating good
 performance in identifying churned customers. The AUC-ROC score suggests strong overall
 performance.
-## Random Forest:
+# Random Forest:
 Accuracy: 92.65%
 Precision: 98.15%
 Recall: 52.48%
@@ -70,7 +70,7 @@ F1-score: 68.39%
 AUC-ROC Score: 76.15%
 Summary: Random Forest shows high accuracy and precision but lower recall, meaning it misses some
 churned customers. The AUC-ROC score indicates moderate overall performance.
-## XGBoost:
+# XGBoost:
 Accuracy: 95.80%
 Precision: 95.06%
 Recall: 76.24%
