@@ -33,14 +33,21 @@ The dataset consists of 21 columns and 3333 rows representing various attributes
 telecommunications industry
 
 ## Major Findings
-i) WV has the highest number of customers while CA has the lowest number
+i) WV has the highest number of customers while CA has the lowest number.
+
 ii) 415 area code has the highest number of customers whereas areas codes 408 and 510 have similar number of customers. This distribution of customers across area codes suggests potential differences in markets or marketing priorities.
+
 iii) A majority of the customers do not have an international plan.
+
 iv) The bar plot visualizes the distribution of customers based on whether they have a voice mail plan or not. It shows that majority of the customers do not have a Voice mail plan.
+
 v) Since most of the customers do not have a voicemail plan, it explains why the number of voice messages are 0.
+
 vi) The majority of customers incur night charges ranging between 7.7 and 7.9.
 Major comparisons between day,night and evening show: i) Usage Intensity: The analysis suggests that usage intensity varies across different time periods. While the highest number of total day calls is common among the majority of customers, the number of evening and night calls shows a more consistent pattern.
+
 vii) Charge Patterns: Although the highest total day charge is relatively high, the highest total evening and night charges are comparatively lower, indicating potential differences in pricing or usage patterns across these time periods.
+
 viii) Customer service is the predominant pattern among churned customers from the telecom service: a significant portion of them initiated at least one customer service call. This suggests that these customers likely sought assistance to resolve issues they faced with various aspects of the service, billing, or other elements of their experience. Consequently, it underscores the need for a thorough analysis of the feedback provided during these interactions. Such analysis could unveil valuable insights into the reasons underlying their decision to churn.
 
 ### Model Evaluation
