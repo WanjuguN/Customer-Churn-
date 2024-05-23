@@ -1,4 +1,4 @@
-## Business Understanding
+# Business Understanding
 Predicting Customer Churn Model
 In the telecommunications industry, customer churn presents a significant challenge. The objective is to develop
 a model that predicts whether a customer will soon terminate their services. This binary classification task aims
@@ -6,7 +6,7 @@ to uncover patterns in customer behavior and demographic data that may indicate 
 ultimate goal is to aid in reducing the financial impact of customer churn by implementing proactive retention
 strategies.
 
-## Problem Statement
+# Problem Statement
 The challenge of retaining customers in a competitive telecommunications landscape is significant. Customer
 churn not only leads to revenue loss but also affects reputation and market position. The task is to develop a
 predictive model that accurately identifies customers likely to churn, enabling proactive intervention with
@@ -16,12 +16,12 @@ factors influencing customer attrition within the telecom industry. The dataset 
 identify potential churn risks and implement targeted strategies to retain customers and improve overall
 satisfaction.
 
-## Objectives
+# Objectives
 i) Develop and Optimize Classification Models:
 ii) Conduct Exploratory Data Analysis (EDA):
 iii) Generate Insights and Recommendations:
 
-## Data Understanding
+# Data Understanding
 The dataset contains information about customers, their usage patterns, and whether they have churned or not.
 (Churn, or customer churn, is an important metric for companies to track when trying to expand their business.
 This metric represents the number of customers that have stopped using your product or service during a given
@@ -32,7 +32,7 @@ in a loss of revenue or profit for the business.
 The dataset consists of 21 columns and 3333 rows representing various attributes of customers in the
 telecommunications industry
 
-## Major Findings
+# Major Findings
 i) WV has the highest number of customers while CA has the lowest number.
 
 ii) 415 area code has the highest number of customers whereas areas codes 408 and 510 have similar number of customers. This distribution of customers across area codes suggests potential differences in markets or marketing priorities.
@@ -50,8 +50,8 @@ vii) Charge Patterns: Although the highest total day charge is relatively high, 
 
 viii) Customer service is the predominant pattern among churned customers from the telecom service: a significant portion of them initiated at least one customer service call. This suggests that these customers likely sought assistance to resolve issues they faced with various aspects of the service, billing, or other elements of their experience. Consequently, it underscores the need for a thorough analysis of the feedback provided during these interactions. Such analysis could unveil valuable insights into the reasons underlying their decision to churn.
 
-### Model Evaluation
-# Logistic Regression:
+# Model Evaluation
+## Logistic Regression:
 Accuracy: 85.01%
 Precision: 51.52%
 Recall: 16.83%
@@ -60,7 +60,7 @@ AUC-ROC Score: 57.00%
 Summary: Logistic Regression has high accuracy but low precision and recall, indicating poor
 performance in identifying churned customers. The AUC-ROC score is low, reflecting limited overall
 performance.
-# Decision Tree:
+## Decision Tree:
 Accuracy: 92.20%
 Precision: 74.75%
 Recall: 73.27%
@@ -69,7 +69,7 @@ AUC-ROC Score: 84.43%
 Summary: Decision Tree demonstrates high accuracy and balanced precision and recall, indicating good
 performance in identifying churned customers. The AUC-ROC score suggests strong overall
 performance.
-# Random Forest:
+## Random Forest:
 Accuracy: 92.65%
 Precision: 98.15%
 Recall: 52.48%
@@ -77,7 +77,7 @@ F1-score: 68.39%
 AUC-ROC Score: 76.15%
 Summary: Random Forest shows high accuracy and precision but lower recall, meaning it misses some
 churned customers. The AUC-ROC score indicates moderate overall performance.
-# XGBoost:
+## XGBoost:
 Accuracy: 95.80%
 Precision: 95.06%
 Recall: 76.24%
@@ -89,19 +89,19 @@ The XGBoost Model appears to be the best model for this classification task.
 It has the highest accuracy, precision, recall, F1-score among all the models evaluated.
 XGBoost is the most suitable model for predicting customer churn.
 
-## Recommendations
-#Implement Proactive Retention Strategies:
+# Recommendations
+## Implement Proactive Retention Strategies:
 Target high-usage customers with retention offers.
 Offer personalized plans to high-usage customers.
-#Monitor and Analyze Customer Service Interactions:
+## Monitor and Analyze Customer Service Interactions:
 Monitor frequent customer service calls to flag churn risks.
 Address common issues leading to customer service calls.
-#Enhance Data Collection and Analysis:
+## Enhance Data Collection and Analysis:
 Continuously monitor and analyze customer usage patterns.
 Establish feedback mechanisms for early dissatisfaction detection.
-#Customer Segmentation:
+## Customer Segmentation:
 Conduct detailed segmentation to identify different churn profiles.
 Develop targeted strategies for each customer segment.
-#Employee Training:
+## Employee Training:
 Train teams to recognize churn signs and implement retention strategies.
 Equip staff with tools to offer personalized solutions to at-risk customers.
