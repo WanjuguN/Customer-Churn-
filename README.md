@@ -90,18 +90,18 @@ It has the highest accuracy, precision, recall, F1-score among all the models ev
 XGBoost is the most suitable model for predicting customer churn.
 
 ## Recommendations
-# Implement Proactive Retention Strategies:
+#Implement Proactive Retention Strategies:
 Target high-usage customers with retention offers.
 Offer personalized plans to high-usage customers.
-# Monitor and Analyze Customer Service Interactions:
+#Monitor and Analyze Customer Service Interactions:
 Monitor frequent customer service calls to flag churn risks.
 Address common issues leading to customer service calls.
-# Enhance Data Collection and Analysis:
+#Enhance Data Collection and Analysis:
 Continuously monitor and analyze customer usage patterns.
 Establish feedback mechanisms for early dissatisfaction detection.
-# Customer Segmentation:
+#Customer Segmentation:
 Conduct detailed segmentation to identify different churn profiles.
 Develop targeted strategies for each customer segment.
-# Employee Training:
+#Employee Training:
 Train teams to recognize churn signs and implement retention strategies.
 Equip staff with tools to offer personalized solutions to at-risk customers.
